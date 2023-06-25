@@ -1,0 +1,36 @@
+# Maven target directory
+target/
+
+# IDE files (Eclipse, IntelliJ, etc.)
+.classpath
+.project
+.settings/
+
+# Compiled bytecode
+*.class
+
+# Maven-specific files
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# Logs
+*.log
+log/
+
+# IDE-specific files and directories
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Temporary files
+*.swp
+*~
+
+# Operating System files (Mac, Windows, Linux)
+.DS_Store
+Thumbs.db
