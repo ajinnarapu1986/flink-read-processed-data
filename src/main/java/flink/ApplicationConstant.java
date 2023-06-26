@@ -8,7 +8,7 @@ public interface ApplicationConstant {
 	public static final String KAFKA_SERVER = "localhost:9092";
 	public static final String KAFKA_GROUP_ID = "PROCESSED-DATA";
 
-	public static final String CLICKHOUSE_TABLE = "log_data";
+	public static final String DB_TABLE = "logs_data";
 	public static final String CLICKHOUSE_URL = "jdbc:clickhouse://localhost:8123/default";
 
 	// Create DateTimeFormatter instance with specified format
