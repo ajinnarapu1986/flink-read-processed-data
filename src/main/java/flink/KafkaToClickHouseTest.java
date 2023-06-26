@@ -45,9 +45,9 @@ public class KafkaToClickHouseTest {
 			values.append("?, ");
 		}
 
-		// Add the UUID COlumn
-		columns.append("idx");
-		values.append("generateUUIDv4()");
+		// Remove the trailing commas
+        columns.setLength(columns.length() - 2);
+        values.setLength(values.length() - 2);
 
 		// Construct the parameterized SQL INSERT query
 		String sqlQuery = "INSERT INTO " + DB_TABLE + " (" + columns + ") VALUES (" + values + ")";
